@@ -31,7 +31,7 @@ export function EnvelopeIntro() {
       style={{
         opacity: stage === "open" ? 0 : 1,
         transition: "opacity 0.9s ease",
-        pointerEvents: stage === "open" ? "none" : "auto",
+        pointerEvents: isOpen ? "none" : "auto",
       }}
     >
       <div className="absolute inset-0 bg-[linear-gradient(160deg,#F1EAD9_0%,#F8F5F0_60%,#EFE6D2_100%)]" />
